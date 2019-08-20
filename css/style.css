@@ -1,0 +1,84 @@
+* {
+   outline: dotted 1px orange; 
+}
+
+html {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > header {
+    background: blue;
+    color: black;
+    height: 100px;
+    line-height: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    background: black;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+figure {
+    border: 5px solid black;
+    max-width: 300px;
+    border-radius: 11px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    max-height: 300px;
+    margin-bottom: 50px;
+}
+
+section > figure:first-child {
+    margin-left: 30px;
+    float: left;
+}
+
+section > figure:nth-child(2) {
+    margin-right: 30px;
+    float: right;
+}
+
+section > figure:nth-child(3) {
+    margin-left: 15px;
+    margin-right: 133px;
+    float: right;
+}
+
+figure img {
+    cursor: pointer;
+    min-width: 100%;
+    width: 200px;
+    height: 200px;
+    min-height: 100%;
+}
+
+figcaption {
+    background: grey;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+}
+
+body > footer {
+    background: blue;
+    clear: both;
+    color: black;
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
