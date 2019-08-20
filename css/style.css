@@ -29,8 +29,9 @@ h2 {
     text-align: center;
 }
 
-figure {
-    border: 5px solid black;
+section {
+    display: inline-block;
+    /* border: 5px solid black; */
     max-width: 300px;
     border-radius: 11px;
     text-align: center;
@@ -40,7 +41,34 @@ figure {
     margin-bottom: 50px;
 }
 
-section > figure:first-child {
+section img {
+    cursor: pointer;
+    min-width: 100%;
+    width: 200px;
+    height: 200px;
+    min-height: 100%;
+}
+
+/* section alt {
+    background: grey;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+} */
+
+body > footer {
+    background: blue;
+    clear: both;
+    color: black;
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* section > figure:first-child {
     margin-left: 30px;
     float: left;
 }
@@ -54,31 +82,4 @@ section > figure:nth-child(3) {
     margin-left: 15px;
     margin-right: 133px;
     float: right;
-}
-
-figure img {
-    cursor: pointer;
-    min-width: 100%;
-    width: 200px;
-    height: 200px;
-    min-height: 100%;
-}
-
-figcaption {
-    background: grey;
-    font-weight: bold;
-    line-height: 2em;
-    text-align: center;
-}
-
-body > footer {
-    background: blue;
-    clear: both;
-    color: black;
-    height: 80px;
-    line-height: 80px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
+} */
